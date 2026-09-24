@@ -1,41 +1,59 @@
 # LENIA — DESIGN SYSTEM FOR STITCH
 
-## Priority
+## Source-of-truth order
 1. Attached approved screenshot = exact composition, spacing, proportions and hierarchy.
-2. Current screen prompt = exact content/state/theme.
-3. This file = permanent LENIA visual language.
-4. Repository icons/components = reusable assets.
+2. Current approved Figma / current production screen = exact visual target.
+3. Current screen prompt = exact content, state and theme.
+4. This file = stable LENIA brand rules.
 
-Never redesign an approved reference.
+Never use historical mockups as a substitute for the current approved screen.
 
 ## Identity
 LENIA is a premium personal-intelligence interface:
 calm, intimate, intelligent, ethereal, cinematic, minimal, native-mobile and sophisticated.
 
-Avoid generic SaaS, generic Material Design, dashboards, dense UI, heavy borders, flat gray cards, aggressive neon and cartoon iconography.
+Avoid:
+- generic SaaS
+- generic Material Design
+- dashboard aesthetics
+- dense UI
+- heavy borders
+- flat gray cards
+- aggressive neon
+- cartoon iconography
 
 ## Canvas
 - mobile-first
-- standard width 390 px
-- common reference height 852 px
+- standard width: 390 px
+- common reference height: 852 px
 - no external device frame
 
 ## Typography
 Inter only: 400 / 500 / 600.
-Page titles 28–32 px.
-Hero titles 22–30 px.
-Body 14–16 px.
-Secondary 12–14 px.
+
+Typical hierarchy:
+- page title: 28–32 px
+- hero title: 22–30 px
+- body: 14–16 px
+- secondary: 12–14 px
 
 ## Brand
-Use assets/brand/lenia-logo.svg.
+Use the official LENIA logo asset:
+assets/brand/lenia-logo.svg
+
 Do not rebuild the wordmark as ordinary text when the asset is available.
 
 ## Orb
-The orb is canonical artwork.
-Never replace it with concentric circles, radar graphics, generic gradient spheres or flat discs.
-Use the official current orb PNG/GIF supplied directly to Stitch.
-Atmospheric violet/blue bloom and subtle optical rings may surround it.
+The current LENIA orb is canonical artwork from the production project.
+
+Never replace it with:
+- concentric circles
+- radar graphics
+- generic gradient spheres
+- flat geometric discs
+
+Use the current official PNG/GIF supplied directly to Stitch.
+Atmospheric violet/blue glow may surround it, but must not replace it.
 
 ## Light
 Pearl white, pale lavender, icy blue, subtle blush pink, luminous center, translucent pearl glass.
@@ -44,45 +62,77 @@ Pearl white, pale lavender, icy blue, subtle blush pink, luminous center, transl
 Midnight navy, indigo, restrained violet/blue glow, translucent indigo glass, never flat pure black.
 
 ## Colors
-Light primary #1E1E2D
-Light secondary #64748B
-Dark primary #F8FAFC
-Dark secondary #A9AFC8
-Violet #9061F9
-Dark violet #A855F7
-Periwinkle #6D78FF
+- Light primary text: #1E1E2D
+- Light secondary text: #64748B
+- Dark primary text: #F8FAFC
+- Dark secondary text: #A9AFC8
+- Violet: #9061F9
+- Dark violet: #A855F7
+- Periwinkle: #6D78FF
 
 ## Glass
-Light: translucent pearl/white, subtle lavender edge, diffuse shadow.
-Dark: translucent navy/indigo, subtle violet edge, low-opacity glow.
-Cards usually 24–28 px radius.
+Light:
+- translucent pearl/white
+- subtle lavender edge
+- diffuse shadow
+
+Dark:
+- translucent navy/indigo
+- subtle violet edge
+- low-opacity ambient glow
+
+Typical card radius: 24–28 px.
 
 ## Spacing
-8 / 12 / 16 / 20 / 24 / 32 px.
-Typical page horizontal margin: 20–24 px.
+Preferred rhythm:
+8 / 12 / 16 / 20 / 24 / 32 px
 
-## Icons
-Use repository SVGs from assets/icons whenever possible.
-Consistent rounded line language. No emoji. Do not mix unrelated icon families.
+Typical horizontal page margin:
+20–24 px
+
+Do not compress a composition merely to avoid scrolling.
+
+## Icons and UI elements
+Use the icons and UI elements visible in the CURRENT approved screen or current Figma source.
+
+Do not invent a new icon family based on old boards.
+Do not mix unrelated icon systems.
+Do not reconstruct visual assets unless explicitly requested.
 
 ## Headers
-Root screens: menu left / LENIA centered / profile right.
-Detail screens: back left / LENIA centered / optional action right.
-No large standard AppBar.
+Root screens commonly use:
+- menu left
+- LENIA centered
+- profile right
+
+Detail screens commonly use:
+- back left
+- LENIA centered
+- optional profile/action right
+
+But the current approved screenshot always overrides this general rule.
 
 ## Light/Dark geometry
-Dark variants preserve the exact approved Light geometry.
-Only background, surface transparency, text colors, borders and glow change.
+Dark variants preserve the exact approved Light geometry unless the current approved references explicitly differ.
+
+Only visual theme treatment changes:
+- background
+- surface transparency
+- text colors
+- borders
+- glow
 
 ## Fidelity
-When a screenshot is attached, preserve:
-- section order
-- card count
-- dominant sizes
-- header type
-- CTA placement
-- element positions
+When a current screenshot is attached:
+- preserve section order
+- preserve card count
+- preserve dominant sizes
+- preserve positions
+- preserve header type
+- preserve CTA placement
+- do not add sections
+- do not remove sections
+- do not reinterpret the screen
 
-Do not add or remove sections.
-The screenshot defines WHAT GOES WHERE.
-This file defines HOW LENIA LOOKS.
+The current approved reference defines WHAT GOES WHERE.
+This file only defines the stable LENIA visual language.

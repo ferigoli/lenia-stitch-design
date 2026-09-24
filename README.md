@@ -2,18 +2,28 @@
 
 Public design-reference repository for Google Stitch.
 
-This repository gives Stitch a stable LENIA visual vocabulary:
+## Important correction
+
+This repository must use ONLY current, approved LENIA design material.
+
+Historical mockup boards, inferred icon sets, reconstructed component libraries, and obsolete screen references are intentionally excluded.
+
+## Current source-of-truth order
+
+1. The exact approved screenshot attached to the current Stitch task.
+2. The current Figma file / current approved design.
+3. Current production assets from the private LENIA project.
+4. DESIGN.md for stable brand rules.
+5. The official LENIA logo contained in this repository.
+
+Do not infer a screen from old visual boards.
+Do not invent icons or components when the current screen reference already shows them.
+
+## Safe public contents
+
 - DESIGN.md
-- 18 original Light/Dark mockup references
-- separated reusable SVG icons
-- reusable SVG UI components
-- official LENIA SVG logo
+- STITCH_INSTRUCTIONS.md
+- tokens.json
+- official LENIA vector logo
 
-## Stitch priority
-1. Attached approved screenshot = exact composition.
-2. Current prompt = current content/state.
-3. DESIGN.md = permanent visual language.
-4. assets/icons + assets/components = reusable building blocks.
-5. references/18-mockups = visual grammar only.
-
-Do not use obsolete reference copy when the current prompt differs.
+Raster orb/background assets should be uploaded directly from the current project to Stitch when needed.

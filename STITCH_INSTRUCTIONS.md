@@ -1,24 +1,22 @@
 # Google Stitch setup
 
-Use this repository in:
+Use:
 https://github.com/ferigoli/lenia-stitch-design
 
-Also upload the current official raster assets directly to Stitch:
-- current idle orb PNG
-- current animated conversation orb GIF
-- Light background PNG
-- Dark background PNG
-- any approved screen-specific image
+This repository intentionally contains only stable, current design guidance and the official LENIA vector logo.
 
-For each screen:
-1. attach its approved screenshot
-2. use a short prompt
-3. tell Stitch not to redesign
-4. let DESIGN.md + this repository provide the design vocabulary
+For every screen:
+1. attach the CURRENT approved screenshot for that exact screen;
+2. upload the CURRENT orb/background raster assets when the screen needs them;
+3. keep the prompt short;
+4. instruct Stitch to reproduce the screenshot, not redesign it.
 
 Example:
-MODIFY: JourneysLight
-Use the attached screenshot as exact structural reference.
-Use DESIGN.md and repository assets for LENIA styling.
-Do not add/remove sections.
+
+MODIFY: ProfileLight
+
+Use the attached CURRENT approved screenshot as the exact structural and visual reference.
+Use DESIGN.md only for stable LENIA brand rules.
+Do not add or remove sections.
+Do not invent icons or components.
 Theme: LIGHT.
