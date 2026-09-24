@@ -1,0 +1,60 @@
+{
+  "source": "18 current approved LENIA screens supplied 2026-09-24",
+  "excluded": [
+    "orb artwork"
+  ],
+  "groups": {
+    "navigation": [
+      "menu",
+      "back",
+      "close",
+      "arrow-right",
+      "chevron-right",
+      "chevron-down"
+    ],
+    "conversation": [
+      "microphone",
+      "send-up",
+      "camera",
+      "double-check",
+      "waveform"
+    ],
+    "auth": [
+      "mail",
+      "lock",
+      "eye",
+      "fingerprint"
+    ],
+    "lenses": [
+      "brain",
+      "philosophy-column",
+      "lotus",
+      "leaf",
+      "church",
+      "sparkles"
+    ],
+    "guided": [
+      "rewind-15",
+      "pause",
+      "forward-15",
+      "heart",
+      "sliders",
+      "more"
+    ],
+    "profile": [
+      "user",
+      "gear",
+      "moon",
+      "globe",
+      "shield-check",
+      "bell",
+      "document"
+    ],
+    "journeys": [
+      "checkin-document",
+      "journey-autoconfianca",
+      "journey-relacionamentos",
+      "journey-clareza"
+    ]
+  }
+}
